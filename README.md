@@ -36,14 +36,26 @@ The dataset is composed of the following features. I assigned new names for read
 
 ## 3. Cleaning 
 
-The following measures were taken to thoroughly handle all [missingb.jpg](https://postimg.cc/18c2yTDr) 
+The following measures were taken to transoform the dataset from (3,649 x 21) with 6,978 missing vals to (1,491 x 22) with 0 missing vals. 
 
-
-
-
+1. Removed 104 countries without energy_share_renewable_primary.
+2. Dropped financial_flows as there are inconsistencies for all countries.
+3. Dropped electricity_renewable_capacity_per_capita as 33 countries had this feature and 39 did not.
+4. Added in co2_emissions_per_capita for Egypt, Slovakia, Turkey from the world bank. These are listed as different names (Arab Republic, Turkiye, Slovak Republic) and the author likely did not expect that.
+5. Imputed with 0's for electricity_nuclear_output for Malasyia, Saudi Arabia, Chile, Indonesia, Kazakhstan as these countries do not have nuclear programs established.
+6. Imputed with forward fill for energy_share_renewable_final and energy_usage_per_gdp
+7. Added in gdp_growth and gdp_per_capita for Egypt, Turkey, and Czechia from the world bank.
+8. Removed Bulgaria as clean_fuels_access_% is missing from the world bank, and this country is responsible for the final missing values.
+9. Added land_area_category using 3 intervals of small, medium, large.
+10. Added density_category using 3 intervals of sparse, populated, and packed.
+11. Added quadrant based on lat and lon pairing as NW, NE, SW, SE.
 
 ## 4. EDA 
+
+
+
 ## 5. Pre-Processing & Feature Engineering 
+
 ## 6. Modeling 
 ## 7. Deployment 
 
