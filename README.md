@@ -4,7 +4,7 @@ _How are different parts of the world affected by tweaks to energy infrastructur
 
 ## 1. Intro
 
-Energy usage is a critical topic in the modern world as countries learn to support populations with clean, sustainable practices providing a higher quality of life for all while minimizing impact on natrual resources. This project uses various energy usage attributes to predict the gdp_per_capita for a country. While certainly not comprehensive, [Gdp_per_capita](https://www.focus-economics.com/economic-indicator/gdp-per-capita/) is a good baseline measurement for the health of a population.
+Energy usage is a critical topic in the modern world as countries learn to support populations with clean, sustainable practices providing a higher quality of life for all while minimizing impact on natrual resources. This project uses various energy usage attributes to predict the gdp_per_capita for a country. While certainly not comprehensive, [gdp_per_capita](https://www.focus-economics.com/economic-indicator/gdp-per-capita/) is a good baseline measurement for the health of a population.
 
 ## 2. Data
 
