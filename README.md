@@ -4,9 +4,6 @@ _How are different parts of the world affected by tweaks to energy infrastructur
 
 ## 1. Intro
 
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
 Energy usage is a critical topic in the modern world as countries learn to support populations with clean, sustainable practices providing a higher quality of life for all while minimizing impact on natrual resources. This project uses various energy usage features to predict the **gdp_per_capita** for a country. While certainly not comprehensive, [gdp_per_capita](https://www.focus-economics.com/economic-indicator/gdp-per-capita/) is a good baseline measurement for the health of a population.
 
 ## 2. Data
@@ -38,6 +35,10 @@ The dataset is composed of the following features. I assigned new names for read
 * **lon**: Longitude of the country's centroid in decimal degrees.
 
 ## 3. Cleaning 
+
+The following measures were taken to thoroughly handle all [missingb.jpg](https://postimg.cc/18c2yTDr) 
+
+
 
 
 
