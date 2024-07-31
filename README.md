@@ -1,2 +1,6 @@
-# Simulation of Global Health Based on Energy Usage 
-eirfiefriejfiefjiefe
+# Global Health Simulation 
+1. Data
+2. Method
+3. 
+
+
