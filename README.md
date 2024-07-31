@@ -1,5 +1,5 @@
 # Global Health Simulation 
-
+_How are different parts of the world affected by tweaks to energy infrastructure and usage?_
 ## 1. Intro
 Energy usage is a critical topic in the modern world as countries learn to support populations with clean, sustainable practices providing a higher quality of life for all while minimizing impact on natrual resources. 
 ## 2. Data
