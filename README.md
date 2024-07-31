@@ -10,34 +10,32 @@ Energy usage is a critical topic in the modern world as countries learn to suppo
 
 Data comes from a [scraped kaggle dataset](https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy) from the [world bank](https://www.worldbank.org/en/home). 
 
-The dataset is composed of the following attributes.
+The dataset is composed of the following attributes. I assigned new names for readability. 
 
-* Entity: The name of the country or region for which the data is reported.
-* Year: The year for which the data is reported, ranging from 2000 to 2020.
-* Access to electricity (% of population): The percentage of population with access to electricity.
-* Access to clean fuels for cooking (% of population): The percentage of the population with primary reliance on clean fuels.
-* Renewable-electricity-generating-capacity-per-capita: Installed Renewable energy capacity per person
-* Financial flows to developing countries (US $): Aid and assistance from developed countries for clean energy projects.
-* Renewable energy share in total final energy consumption (%): Percentage of renewable energy in final energy consumption.
-* Electricity from fossil fuels (TWh): Electricity generated from fossil fuels (coal, oil, gas) in terawatt-hours.
-* Electricity from nuclear (TWh): Electricity generated from nuclear power in terawatt-hours.
-* Electricity from renewables (TWh): Electricity generated from renewable sources (hydro, solar, wind, etc.) in terawatt-hours.
-* Low-carbon electricity (% electricity): Percentage of electricity from low-carbon sources (nuclear and renewables).
-* Primary energy consumption per capita (kWh/person): Energy consumption per person in kilowatt-hours.
-* Energy intensity level of primary energy (MJ/$2011 PPP GDP): Energy use per unit of GDP at purchasing power parity.
-* Value_co2_emissions (metric tons per capita): Carbon dioxide emissions per person in metric tons.
-* Renewables (% equivalent primary energy): Equivalent primary energy that is derived from renewable sources.
-* GDP growth (annual %): Annual GDP growth rate based on constant local currency.
-* GDP per capita: Gross domestic product per person.
-* Density (P/Km2): Population density in persons per square kilometer.
-* Land Area (Km2): Total land area in square kilometers.
-* Latitude: Latitude of the country's centroid in decimal degrees.
-* Longitude: Longitude of the country's centroid in decimal degrees.
+* **country**: The name of the country or region for which the data is reported.
+* **year**: The year for which the data is reported, ranging from 2000 to 2020.
+* **electricity_access**: The percentage of population with access to electricity.
+* **clean_fuel_access**: The percentage of the population with primary reliance on clean fuels.
+* **electricity_renewable_capacity_per_capita**: Installed Renewable energy capacity per person
+* **financial_flows**: Aid and assistance from developed countries for clean energy projects.
+* **energy_share_renewable_final**: Percentage of renewable energy in final energy consumption.
+* **energy_share_renewable_primary**: Equivalent primary energy that is derived from renewable sources.
+* **electricity_fossil_fuels_output**: Electricity generated from fossil fuels (coal, oil, gas) in terawatt-hours.
+* **electricity_nuclear_output**: Electricity generated from nuclear power in terawatt-hours.
+* **electricity_renewables_output**: Electricity generated from renewable sources (hydro, solar, wind, etc.) in terawatt-hours.
+* **electricity_low_carbon**: Percentage of electricity from low-carbon sources (nuclear and renewables).
+* **energy_consumption_per_capita**: Energy consumption per person in kilowatt-hours.
+* **energy_use_per_gdp**: Energy use per unit of GDP at purchasing power parity.
+* **co2_emissions_per_capita**: Carbon dioxide emissions per person in metric tons.
+* **gdp_growth**: Annual GDP growth rate based on constant local currency.
+* **gdp_per_capita**: Gross domestic product per person.
+* **density**: Population density in persons per square kilometer.
+* **land_area**: Total land area in square kilometers.
+* **lat**: Latitude of the country's centroid in decimal degrees.
+* **lon**: Longitude of the country's centroid in decimal degrees.
 
+## 3. Cleaning 
 
-
-
-## 3. Methods 
 ## 4. EDA 
 ## 5. Pre-Processing & Feature Engineering 
 ## 6. Modeling 
