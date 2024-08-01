@@ -50,6 +50,8 @@ The following measures were taken to transoform the dataset from (3,649 x 21) wi
 10. Added density_category using 3 intervals of sparse, populated, and packed.
 11. Added quadrant based on lat and lon pairing as NW, NE, SW, SE.
 
+
+
 ## 4. EDA 
 
 
