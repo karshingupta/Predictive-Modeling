@@ -1,7 +1,7 @@
 # Global Economic Health & Sustainability Simulation
 
-This is: Bayesian Optimized LightGBM Random Forest Model predicting gdp per capita for 71 countries across 20 years with xx.xx accuracy based on energy infrastructure inputs.
-Libraries & Frameworks Used:
+This is: Bayesian Optimized LightGBM Random Forest Model predicting gdp per capita for 71 countries across 20 years with xx.xx accuracy based on energy infrastructure inputs. <br>
+Libraries & Frameworks Used: <br> 
 Use Cases: Use cases: policy making, economic planning, energy infrastructure analysis.    
 
 ## 1. Intro
