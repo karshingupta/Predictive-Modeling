@@ -52,13 +52,12 @@ The following measures were taken to transoform the dataset from (3,649 x 21) wi
 
 
 
-## 4. EDA fbf
+## 4. EDA 
 
 
 
 ## 5. Pre-Processing & Feature Engineering 
 
 ## 6. Modeling 
-## 7. Deployment 
 
 
