@@ -1,6 +1,8 @@
 # Global Economic Health & Sustainability Simulation
 
-_How are different parts of the world affected by tweaks to energy infrastructure and usage?_
+This is: Bayesian Optimized LightGBM Random Forest Model predicting gdp per capita for 71 countries across 20 years with xx.xx accuracy based on energy infrastructure inputs.
+Libraries & Frameworks Used:
+Use Cases: Use cases: policy making, economic planning, energy infrastructure analysis.    
 
 ## 1. Intro
 
