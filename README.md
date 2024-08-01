@@ -16,7 +16,7 @@ Energy usage is a critical topic in the modern world as countries learn to suppo
 3. EDA
 4. Preprocessing
 5. Modeing with pipelines
-6. Choose best model and enhance with hyperparamter tuning and boosting
+6. Choose best model and enhance with hyperparameter tuning and boosting
 
 ## 3. Data
 
