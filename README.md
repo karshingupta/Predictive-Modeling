@@ -1,4 +1,4 @@
-# Global Health Simulation 
+# Global Economic Health & Sustainability Simulation
 
 _How are different parts of the world affected by tweaks to energy infrastructure and usage?_
 
