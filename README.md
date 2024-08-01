@@ -9,7 +9,16 @@
 
 Energy usage is a critical topic in the modern world as countries learn to support populations with clean, sustainable practices providing a higher quality of life for all while minimizing impact on natrual resources. This project uses various energy usage features to predict the [gdp_per_capita](https://www.focus-economics.com/economic-indicator/gdp-per-capita/) for a country. While certainly not comprehensive, gdp_per_capita is a good baseline measurement for the health of a population.
 
-## 2. Data
+## 2. Methods
+
+* Data Collection
+* Data Cleaning
+* EDA
+* Preprocessing
+* Modeing with pipelines
+* Choose best model and enhance with hyperparamter tuning and boosting
+
+## 3. Data
 
 Data comes from a [scraped kaggle dataset](https://www.kaggle.com/datasets/anshtanwar/global-data-on-sustainable-energy) from the [world bank](https://www.worldbank.org/en/home). 
 
