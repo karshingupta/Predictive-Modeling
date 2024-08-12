@@ -64,6 +64,29 @@ A 3-d plotly chart shows
 * Small, packed, countries in the NE quadrant like Luxembourg, Switzerland, and Qatar dominate higher gdp_per_capita values. Being more compact allows for more efficient energy delivery and infrastructure.
 * Large, packed countries like China, Pakistan, India, Thailand are overburdened by energy demands and lack the infrastructure to meet them.
 
+Strongest correlators with `gdp_per_capita`:
+
+* `clean_fuels_access%` (0.81)
+* `energy_consumption_per_capita` (0.81)
+* `electricity_access_%` (0.71)
+
+`energy_consumption_per_capita` is strongly correlated with `clean_fuels_access_%` (0.79) and `electricity_access_%` (0.71).
+
+Other strong correlations:
+
+`renewable_energy_share_primary` and `renewable_energy_share_final` (0.79)
+`renewable_energy_share_primary` and `electricity_low_carbon` (0.85)
+`electricity_fossil_fuels_output` and `co2_emissions_per_capita` (0.95)
+`land_area` and `co2_emissions_per_capita` (0.69)
+
+PCA Analysis reveals 5 Distinct Top Loaders:
+
+`co2_emissions_per_capita` (0.48)
+`electricity_fossil_fuels_output` (0.48)
+`electricity_renewables_output` (0.46)
+`land_area` (0.40)
+`electricity_nuclear_output` (0.36)
+
 ## 5. Pre-Processing & Feature Engineering 
 
 ## 6. Modeling 
