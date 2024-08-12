@@ -55,7 +55,7 @@ The following measures were taken to transoform the dataset from (3,649 x 21) wi
 
 ## 4. EDA 
 
-Countries were categorized based on land area (small, medium, large) and density (sparse, populated, packed). 
+Countries were categorized based on land area (small, medium, large), density (sparse, populated, packed), and quadrant (NW, NE,  SW, SE).
 
 A 3-d plotly chart shows 
 
@@ -88,6 +88,18 @@ PCA Analysis reveals 5 Distinct Top Loaders:
 * `electricity_nuclear_output` (0.36)
 
 ## 5. Pre-Processing & Feature Engineering 
+
+From strongest correlators with `gdp_per_capita` and distinct top loaders, engineer the following new features:
+
+`electricity_fossil_fuels_consumption_ratio` = `electricity_fossil_fuels_output` / `energy_consumption_per_capita`
+`electricity_renewables_consumption_ratio` = `electricity_renewables_output` / `energy_consumption_per_capita`
+`co2_emissions_consumption_ratio` = `co2_emissions_per_capita` / `energy_consumption_per_capita`
+`land_area_with_electricity_access` = `land_area` * `electricity_access_%`
+`land_area_with_clean_fuels_access` = `land_area` * `clean_fuels_access`
+
+Ordinal encoding for land_area, density, and quadrant categories. 
+
+Standarization with StdScalar. 
 
 ## 6. Modeling 
 
