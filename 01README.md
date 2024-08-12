@@ -74,18 +74,18 @@ Strongest correlators with `gdp_per_capita`:
 
 Other strong correlations:
 
-`renewable_energy_share_primary` and `renewable_energy_share_final` (0.79)
-`renewable_energy_share_primary` and `electricity_low_carbon` (0.85)
-`electricity_fossil_fuels_output` and `co2_emissions_per_capita` (0.95)
-`land_area` and `co2_emissions_per_capita` (0.69)
+* `renewable_energy_share_primary` and `renewable_energy_share_final` (0.79)
+* `renewable_energy_share_primary` and `electricity_low_carbon` (0.85)
+* `electricity_fossil_fuels_output` and `co2_emissions_per_capita` (0.95)
+* `land_area` and `co2_emissions_per_capita` (0.69)
 
 PCA Analysis reveals 5 Distinct Top Loaders:
 
-`co2_emissions_per_capita` (0.48)
-`electricity_fossil_fuels_output` (0.48)
-`electricity_renewables_output` (0.46)
-`land_area` (0.40)
-`electricity_nuclear_output` (0.36)
+* `co2_emissions_per_capita` (0.48)
+* `electricity_fossil_fuels_output` (0.48)
+* `electricity_renewables_output` (0.46)
+* `land_area` (0.40)
+* `electricity_nuclear_output` (0.36)
 
 ## 5. Pre-Processing & Feature Engineering 
 
