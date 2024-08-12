@@ -3,7 +3,15 @@
 **This is:** Bayesian Optimized & Stacked Random Forest Model. <br>
 **What it Does:** Predicts gdp per capita for 71 countries based on energy infrastructure inputs with 0.96 R2. <br> 
 **Libraries/Frameworks Used:** Pandas, Numpy, Plotly, Sklearn, Skopt. <br> 
-**Use cases:** policy making, economic planning, energy infrastructure analysis.    
+**Use cases:** policy making, economic planning, energy infrastructure analysis.
+
+## Table of Contents 
+1. Intro
+2. Data
+3. Cleaning
+4. EDA
+5. Pre-Processing
+6. Modeling
 
 ## 1. Intro
 
@@ -64,6 +72,8 @@ A 3-d plotly chart shows
 * Small, packed, countries in the NE quadrant like Luxembourg, Switzerland, and Qatar dominate higher gdp_per_capita values. Being more compact allows for more efficient energy delivery and infrastructure.
 * Large, packed countries like China, Pakistan, India, Thailand are overburdened by energy demands and lack the infrastructure to meet them.
 
+Scatterplots comparing features against gdp_per_capita reveals mostly non linear relationships. 
+
 Strongest correlators with `gdp_per_capita`:
 
 * `clean_fuels_access%` (0.81)
@@ -87,7 +97,7 @@ PCA Analysis reveals 5 Distinct Top Loaders:
 * `land_area` (0.40)
 * `electricity_nuclear_output` (0.36)
 
-## 5. Pre-Processing & Feature Engineering 
+## 5. Pre-Processing 
 
 From strongest correlators with `gdp_per_capita` and distinct top loaders, engineer the following new features:
 
@@ -102,5 +112,52 @@ Ordinal encoding for land_area, density, and quadrant categories.
 Standarization with StdScalar. 
 
 ## 6. Modeling 
+
+Linear pipeline with grid cross-val shows 
+
+* 'land_area_with_electricity_access'
+* 'electricity_fossil_fuels_output'
+* 'energy_consumption_per_capita'
+
+as strongest features. 
+
+Random Forest pipeline with grid cross-val shows 
+
+* `energy_consumption_per_capita`
+* `electricity_fossil_fuels_output`
+
+as strongest features. Both pipelines share common top features. 
+
+On test data, linear model shows 
+
+* MAE of 9039
+* MSE of 187465950
+* R2 of 0.67
+
+On test data, random forest model shows 
+
+* MAE of 3172
+* MSE of 35868585
+* R2 of 0.94
+
+Random forest shows significantly lower MAE, MSE, and a higher R2 score than linear model.
+
+Bays Opt reveals the best parameters and a new best score: 
+
+* max_depth, 14
+* max_features, 0.3621342162124933
+* min_samples_leaf, 1
+* min_samples_split, 2
+* n_estimators, 114
+* simpleimputer strategy, median
+* standardscaler, StandardScaler()
+* Score: 0.9464321055453709
+
+Creating an optimal pipeline with these params ups the R2 to 0.95. 
+
+Finally, complementing the optimized pipeline with stacking gives an R2 of 0.96 with a training vs test difference of only 0.02. 
+
+ 
+
 
 
