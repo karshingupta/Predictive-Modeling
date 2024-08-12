@@ -15,7 +15,7 @@ Data comes from a [scraped kaggle dataset](https://www.kaggle.com/datasets/ansht
 
 The dataset is composed of the following features. I assigned new names for readability. 
 
-* **country**: The name of the country or region for which the data is reported.
+* `country`: The name of the country or region for which the data is reported.
 * **year**: The year for which the data is reported, ranging from 2000 to 2020.
 * **electricity_access_%**: The percentage of population with access to electricity.
 * **clean_fuel_access_%**: The percentage of the population with primary reliance on clean fuels.
