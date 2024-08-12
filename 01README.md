@@ -91,11 +91,11 @@ PCA Analysis reveals 5 Distinct Top Loaders:
 
 From strongest correlators with `gdp_per_capita` and distinct top loaders, engineer the following new features:
 
-`electricity_fossil_fuels_consumption_ratio` = `electricity_fossil_fuels_output` / `energy_consumption_per_capita`
-`electricity_renewables_consumption_ratio` = `electricity_renewables_output` / `energy_consumption_per_capita`
-`co2_emissions_consumption_ratio` = `co2_emissions_per_capita` / `energy_consumption_per_capita`
-`land_area_with_electricity_access` = `land_area` * `electricity_access_%`
-`land_area_with_clean_fuels_access` = `land_area` * `clean_fuels_access`
+* `electricity_fossil_fuels_consumption_ratio` = `electricity_fossil_fuels_output` / `energy_consumption_per_capita`
+* `electricity_renewables_consumption_ratio` = `electricity_renewables_output` / `energy_consumption_per_capita`
+* `co2_emissions_consumption_ratio` = `co2_emissions_per_capita` / `energy_consumption_per_capita`
+* `land_area_with_electricity_access` = `land_area` * `electricity_access_%`
+* `land_area_with_clean_fuels_access` = `land_area` * `clean_fuels_access`
 
 Ordinal encoding for land_area, density, and quadrant categories. 
 
