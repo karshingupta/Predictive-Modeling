@@ -115,9 +115,9 @@ Standarization with StdScalar.
 
 Linear pipeline with grid cross-val shows 
 
-* 'land_area_with_electricity_access'
-* 'electricity_fossil_fuels_output'
-* 'energy_consumption_per_capita'
+* `land_area_with_electricity_access`
+* `electricity_fossil_fuels_output`
+* `energy_consumption_per_capita`
 
 as strongest features. 
 
