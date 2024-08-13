@@ -158,9 +158,8 @@ Creating an optimal pipeline with these params ups the R2 to 0.95.
 
 Finally, complementing the optimized pipeline with stacking gives an R2 of 0.96 with a training vs test difference of only 0.02. 
 
-## 7. Streamlit Deployment 
+## 7. Scenarios 
 
-With the model now complete, we deploy to Streamlit. 
 
 
 
