@@ -1,9 +1,6 @@
 # Global Economic Health & Sustainability Simulation
 
-**This is:** Bayesian Optimized & Stacked Random Forest Model. <br>
-**What it Does:** Predicts gdp per capita for 71 countries based on energy infrastructure inputs with 0.96 R2. <br> 
-**Libraries/Frameworks Used:** Pandas, Numpy, Plotly, Sklearn, Skopt. <br> 
-**Use cases:** policy making, economic planning, energy infrastructure analysis.
+A Bayesian optimized and gradient boosted random forest model with a performance of 0.96 R2 designed to simulate gdp per capita based on energy inputs. 
 
 ## Table of Contents 
 1. Intro
