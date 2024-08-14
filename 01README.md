@@ -155,6 +155,12 @@ Creating an optimal pipeline with these params ups the R2 to 0.95.
 
 Finally, complementing the optimized pipeline with stacking gives an R2 of 0.96 with a training vs test difference of only 0.02. 
 
+Final evaluation metrics:
+
+* MAE of 2600
+* MSE of 19723994  
+* R2 of 0.965
+
 ## 7. Scenarios 
 
 
