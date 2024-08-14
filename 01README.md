@@ -9,7 +9,7 @@ A Bayesian optimized and gradient boosted random forest model with a performance
 4. EDA
 5. Pre-Processing
 6. Modeling
-7. Streamlit Deployment
+7. Practical Applications 
 
 ## 1. Intro
 
@@ -161,7 +161,7 @@ Final evaluation metrics:
 * MSE of 19723994  
 * R2 of 0.965
 
-## 7. Scenarios 
+## 7. Practical Applications 
 
 
 
