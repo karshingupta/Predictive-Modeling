@@ -1,1 +1,1 @@
-### Predictive Modeling, Using GDP Per Capita as a target to represent globaL health. 
+## Predictive modeling using gdp per capita to represent global health. 
