@@ -1,1 +1,1 @@
-## Predictive modeling using gdp per capita to represent global health. 
+Predictive modeling using gdp per capita to represent global health. 
